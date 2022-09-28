@@ -33,5 +33,5 @@ public class Util {
         return instance;
     }
 
-    Configuration configuration = new Configuration();
+//    Configuration configuration = new Configuration();
 }
