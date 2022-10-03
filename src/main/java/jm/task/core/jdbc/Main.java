@@ -9,7 +9,7 @@ import java.sql.*;
 public class Main {
     public static final UserService userService= new UserServiceImpl();
     public static void main(String[] args) {
-        // реализуйте алгоритм здесь
+        
         userService.createUsersTable();
         userService.saveUser("John", "Snow", (byte) 27);
         userService.saveUser("Walter", "White", (byte) 55);
